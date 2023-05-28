@@ -34,7 +34,7 @@ class App extends Component {
                 className="input-element"
               />
             ) : (
-              <p className="para">{inputText}</p>
+              <p>{inputText}</p>
             )}
             <button
               type="button"
